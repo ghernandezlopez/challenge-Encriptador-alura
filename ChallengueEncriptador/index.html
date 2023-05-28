@@ -1,0 +1,84 @@
+<!-- Creado Por GERARDO HERNANDEZ LOPEZ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet">
+    <link rel="shortcut icon" href="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/50e75fff-6118-486e-a6cb-b7998eb15a80.png?ixlib=react-9.0.3&ch=Width%2CDPR&auto=format&w=210" type="image/x-icon">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="encrypt">
+
+            <img src="img/Vector.png" alt="logo Alura" class="logo">
+
+            <textarea name="text" class="text" id="text" cols="30" rows="10" placeholder="aquí puedes escribir..." spellcheck="false" focus=""></textarea>
+
+        
+            <div class="terms">
+
+                <p>solo letras minusculas</p>
+
+            </div>
+            <div class="buttons">
+
+                <button class="encrypt-button" type="button" onclick="encrypt()">Encriptar</button>
+                <input class="decrypt-button" type="button" onclick="decrypt()" value="Desencriptar">
+
+            </div>
+
+        </div>
+        
+        <div class="show-message">
+
+            <img src="https://img.freepik.com/free-vector/progress-concept-illustration_114360-1752.jpg?w=826&t=st=1685065776~exp=1685066376~hmac=f7479172ac2a1aa174529124acc090f3921a22e479437a3e370171cf99cb9270" alt="" id="doll" class="doll">
+
+            <div class="message-to-show">
+
+                <h2 id="message-title">Ningún mensaje fue encontrado</h2>
+                <p id="paragraph">Ingresa el texto que deseas encriptar o desencriptar</p>
+
+            </div>
+
+            <textarea name="message" id="message" cols="30" rows="10" class="message" spellcheck="false" readonly="true"></textarea>
+
+            <input class="copy" type="button" onclick="copyMessage()" value="Copy">
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="contenedor">
+            <div class="creditos">
+                <p><span class="copyright">© 2023 Todos los derechos reservados.</span></p>
+                <p>Creado Por GERARDO HERNANDEZ LOPEZ</p>
+                
+            </div>
+            <div class="media">
+                
+                <a href="https://www.linkedin.com/in/gerardo-front-end/" target="_blank">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-linkedin-4054254-3352996.png?f=webp&w=256" alt="Icono de LinkedIn" class="icono">
+                </a>
+                <a href="https://github.com/ghernandezlopez" target="_blank">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-social-283-116317.png?f=webp&w=256" alt="Icono de GitHub" class="icono">
+                </a>
+                <a href="https://www.instagram.com/gerardo_martinez_henao/" target="_blank">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/instagram-2676407-2221369.png?f=webp&w=256" alt="Icono de Instagram" class="icono">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+<!-- Creado Por GERARDO HERNANDEZ LOPEZ -->
